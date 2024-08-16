@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataTypes</title>
+</head>
+<body>
+    <h3> Data Types in Js</h3>
+    <p>There are two types of DT:1-primitive <br>2-non primitive</p>
+    <p>1.primitive:it is immutable and it stores single value,types of primitive data types</p>
+    <ol>
+        <li>Numbers</li>
+        <li>strings</li>
+        <li>boolean</li>
+        <li>null</li>
+        <li>undefined</li>
+        <li>symbol</li>
+    </ol>
+    <h1>Non-primitive DT:complex,stores multiple values, mutable,it returns object DT</h1>
+    <OL>
+        <LI>Object</LI>
+        <li>Arrays</li>
+        <li>Date</li>
+    </OL>
+</body>
+<script>
+    var a=10
+    document.write('value of a is',a)
+    console.log('value of a is',a)
+    //you can reassign the value
+    var a=13
+    // document.write('value of new a',a)
+    console.log('value of new a is',a)
+
+    let b=15
+    document.write('value of b is ',b)
+    console.log('value of b is ',b)
+
+    //you cannot reassign the same value
+    //let b=10
+    //console.log('value of new b is',b)
+
+    let c=20
+    document.write('value of c is ',c)
+    console.log('value of c is ',c)
+
+    
+    //you cannot reassign the same value
+    //let c=20
+    //console.log('value of new c is',c)
+    //checking the DT
+    let x=5
+    document.write('value of x is',x,'type of x is',typeof(x))
+    console.log('value of x is',x,'type of x is',typeof(x))
+
+    let y=-20.7
+    console.log('value of y is',y, 'type of y is',typeof(y))
+
+    // string DT
+    let str="Hello World"
+    console.log('str is',str,'typeof str is',typeof(str))
+    let doubstr='Hello World'
+    console.log('doubstr is',doubstr,'typeof doubstr is',typeof(doubstr))
+    console.log("5+3")
+
+    // Boolean DT
+    let isTrue=true //1
+    let isFalse=false // 0
+
+    console.log('value of isTrue is',isTrue,'type of isTrue is',typeof(isTrue))
+    console.log('value of isFalse',isFalse,'Type of isFalse',typeof(isFalse))
+
+    // interview
+    console.log(true+true)
+    console.log(true+false)
+    console.log(false+false)
+
+    // Null DT
+    let NullDT=null
+    console.log('value of null is',NullDT,'type of null is',typeof(NullDT))
+
+    // Undefined DT :whose values is not define
+    let undefinedDT;
+    console.log('value of undefined DT is',undefinedDT,'type of undefined DT is',typeof(undefinedDT))
+
+    // Symbol:stores unique identifiers or unique values
+    let symbolDT=Symbol()
+    let symbolDT1=Symbol('unique')
+    console.log('value of symbol is',symbolDT1,'type of symbol is',typeof(symbolDT1))
+
+    // Non-Premitive DT: mutable,complex, can add mltiple values
+    let person={
+        name:'john',
+        age:23,
+        address: 'Telengana'
+    }
+    console.log('value of person is',person,'type of person is',typeof(person))
+
+    // arrays
+    let arr=[1,2,3,4,5]
+    console.log('value of arr is',arr,'type of arr is',typeof(arr))
+
+    // date
+    let currentDate=new Date()
+    console.log('date value is',currentDate,'type of date is',typeof(currentDate))
+   //Ternary operators
+   let age=10
+   let vote=(age>=18)?'yes can vote':'you cannot vote'
+   console.log(vote)
+
+   let random=12
+   let guess=(random==10)?'your guess is correct':'your guess is not correct'
+   console.log(guess)
+   let flower='pink'
+//   let flower=prompt('enter the name')
+   let guess_flower=(flower=='rose')?'correct':'in correct'
+   console.log(guess_flower)
+
+   //Date methods
+     let CurrentDate=new Date()
+     console.log('Current Date is',currentDate)
+
+     let year=currentDate.getFullYear()
+     console.log('Year is',year)
+
+     
+     let month=currentDate.getMonth()
+     console.log('month is ',month)
+
+     
+     //math methods
+     console.log('=====================')
+     console.log(Math.PI)
+     console.log(Math.sqrt(16))
+     console.log(Math.pow(2,4))
+     
+    //   round numbers
+    console.log(Math.round(5,7))
+    console.log(Math.ceil(5,8))
+    console.log(Math.floor(5,7))
+    console.log(Math.abs(-15))
+    // random numbers
+    console.log(Math.random())
+    console.log(Math.random()*10+1)
+    console.log(Math.max(100))
+</script>
+</html>

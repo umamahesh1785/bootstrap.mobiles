@@ -1,0 +1,106 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.custom{
+    background: linear-gradient(to right, rgb(107, 64, 64),rgb(103, 255, 255),rgb(224, 172, 74));
+}
+.carousel-item {
+  height: 700px;
+  object-fit: cover;
+}
+.icons{
+    font-size:30px;
+    color: aqua;
+    animation: move 5s infinite;
+}
+  @keyframes move {
+     50% {transform:rotate(180deg);}
+  }
+  .dropdown-menu{
+    overflow-y: auto;
+    max-height: 100px;
+  }
+  .nav-item .nav-link{
+    color: whitesmoke;
+  }
+.btn{
+  color: red;
+
+}
+.card{
+  border:none;
+
+}
+.card-img-top{
+height: 200px;
+/* width: 200px; */
+/* padding: 10px; */
+margin: 10px;
+border-radius: 50%;
+background-size: cover;
+border: 1px solid red;
+
+
+}
+.card-body{
+  border: none;
+}
+.crad-tittle{
+  text-align: center;
+}
+.card1{
+  border: 1px solid red;
+}
+.card-img{
+  height:200px;
+  width:250px;
+  background-size: cover;
+  padding: 5px;
+}
+.card-title1{
+  text-align: center;
+}
+span{
+  margin-left:50px;
+  color: blue;
+}
+h3{
+  color: brown;
+}
+.button{
+  color:red;
+  background-color: rgb(170, 170, 49);
+  border: 1px solid rgb(235, 235, 10);
+    border-radius: 35px;
+    margin-left: 30px;
+    padding: 15px;
+    margin-top:80px;
+    position: relative;
+    text-decoration: none;
+} 
+   .btn1{
+    color:red;
+  background-color: rgb(170, 170, 49);
+  border: 1px solid rgb(235, 235, 10);
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 5px;
+    margin-top:80px
+   }
+   .button:hover{
+    color: yellowgreen;
+    background-color: aqua;
+   }
+   .footer{
+    background:linear-gradient(to right,red,yellow,green);
+    padding: 10px;
+    text-align: center;
+}
+.mahesh{
+  color: black;
+  padding: 5px;
+  border: 1px solid red;
+  
+}
